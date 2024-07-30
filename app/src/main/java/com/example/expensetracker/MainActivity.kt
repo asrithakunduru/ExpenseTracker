@@ -66,6 +66,10 @@ class MainActivity : AppCompatActivity() {
                 finish()
                 true
             }
+            R.id.menu_exit -> {
+                finishAffinity() // Closes the app and all activities in the stack
+                true
+            }
             else -> super.onOptionsItemSelected(item)
         }
     }
