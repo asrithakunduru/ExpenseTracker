@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/backgroundColor">
+
+    <EditText
+        android:id="@+id/editTextAmount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Amount"
+        android:inputType="numberDecimal"
+        android:padding="8dp"
+        android:background="@drawable/edit_text_background"
+        android:textColor="@color/primaryTextColor" />
+
+    <EditText
+        android:id="@+id/editTextDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Description"
+        android:padding="8dp"
+        android:background="@drawable/edit_text_background"
+        android:textColor="@color/primaryTextColor" />
+
+    <Spinner
+        android:id="@+id/spinnerCategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:background="@drawable/spinner_background"
+        android:textColor="@color/primaryTextColor" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupPaymentMethod"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <RadioButton
+            android:id="@+id/radioButtonCash"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cash"
+            android:textColor="@color/primaryTextColor" />
+
+        <RadioButton
+            android:id="@+id/radioButtonCard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Card"
+            android:textColor="@color/primaryTextColor" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/buttonSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:background="@color/primaryColor"
+        android:textColor="@android:color/white"
+        android:padding="12dp"
+        android:layout_marginTop="16dp" />
+</LinearLayout>

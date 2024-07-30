@@ -1,0 +1,14 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.ExpenseTracker" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryVariant">@color/primaryColor</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+        <item name="colorSecondary">@color/primaryColor</item>
+        <item name="colorOnSecondary">@android:color/white</item>
+        <item name="colorSurface">@android:color/white</item>
+        <item name="colorOnSurface">@color/primaryTextColor</item>
+        <item name="colorBackgroundFloating">@color/backgroundColor</item>
+        <item name="colorOnBackground">@color/primaryTextColor</item>
+        <item name="android:windowBackground">@color/backgroundColor</item>
+    </style>
+</resources>
