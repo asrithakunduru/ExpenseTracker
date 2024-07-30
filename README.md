@@ -1,4 +1,4 @@
-Expense Tracker helps you easily manage your spending. With secure login and registration via Firebase, you can quickly access your account. The app lets you view and add expenses with a simple interface, categorizing them into Food, Transportation, and Entertainment. It dynamically updates your total expenses, making it easy to stay on top of your finances.
+The Expense Tracker app helps you manage your spending easily with a secure login and registration system via Firebase. You can view and add expenses through a simple interface, categorizing them into Food, Transportation, and Entertainment. The app dynamically updates the total expenses, helping you stay on top of your finances. Fragments are used to display different parts of the app's UI, such as the expense list and the add expense dialog, based on user interactions. The bottom navigation bar lets users switch between these fragments or open the add expense dialog. Additionally, the top right corner menu options include logout and exit functionalities.
 
 ![WhatsApp Image 2024-07-29 at 11 36 14 PM](https://github.com/user-attachments/assets/b52e7241-1612-4473-aa27-81d3ccef15b1)
 ![WhatsApp Image 2024-07-29 at 11 36 15 PM](https://github.com/user-attachments/assets/a340b47d-6991-46c2-8e2f-0f37a8d79bda)
@@ -6,6 +6,10 @@ Expense Tracker helps you easily manage your spending. With secure login and reg
 ![WhatsApp Image 2024-07-29 at 11 36 15 PM (4)](https://github.com/user-attachments/assets/c1c3c5c4-391e-426e-88a3-763215a61b08)
 ![WhatsApp Image 2024-07-29 at 11 36 15 PM (3)](https://github.com/user-attachments/assets/375086bf-1932-4df2-968a-8e8d1e8e5bec)
 ![WhatsApp Image 2024-07-29 at 11 36 15 PM (2)](https://github.com/user-attachments/assets/8e55ecba-53fc-4bb0-8403-56a1ce5099d7)
+
+References:
+App Background images - free download on Freepik. Freepik. (n.d.). https://www.freepik.com/free-photos-vectors/app-background .
+
 
 
 
